@@ -1,0 +1,18 @@
+a {
+  color: purple;
+  font-family: avenir;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  background-color:#412f59;
+}
+#header {
+  //unique
+}
+.class {
+  //can be reused
+}
