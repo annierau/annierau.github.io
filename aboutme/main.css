@@ -1,18 +1,160 @@
 a {
-  color: purple;
+  color: #174ee8;
   font-family: avenir;
 }
 
 a:hover {
   color: red;
+  text-align: center;
 }
 
 body {
-  background-color:#412f59;
+  background-color:#ffcedc;
+  cursor: url(https://40.media.tumblr.com/6f35e78e0f80189f7fc89c036006571e/tumblr_n63gybzjY01rgnm98o1_1280.jpg),auto;
 }
+
 #header {
-  //unique
+  color: #ffcedc;
+}
+
+#footer {
+  color: #8e1537;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #8e1537;
+  color: #8e1537;
+
+}
+
+.image{
+  border-color: #174ee8;
+}
+.twitter-follow-button{
+  align-content: center;
+  align-items: center;
+}
+h1{
+  color: #ffcedc;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+h2{
+  color: #8e1537;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+h3{
+  color: #8e1537;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+h4{
+  color: #8e1537;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+
+}
+h5{
+  color: #8e1537;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 .class {
   //can be reused
+}
+
+.col-sm-4 {
+  align-items: center;
+}
+
+.btn btn-primary{
+  color: green;
+}
+
+.imageborder
+{
+    border-width: 1px;
+    border-color: #8e1537;
+    align-items: center;
+    align-content: center;
+}
+
+.title {
+	position: relative;
+	font-size: 4em;
+	line-height: 1;
+	color: #fff;
+	display: inline-block;
+  font-weight: 800;
+	font-family: 'Dosis', sans-serif;
+	transition: color 0.5s 0.25s;
+	overflow: hidden;
+
+  &.active {
+    transition: none;
+	  color: transparent;
+  }
+}
+
+span {
+  position: absolute;
+	height: 50%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+span::before {
+    content: attr(data-letters);
+	color: #ffcedc;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #ffcedc;
+	transition: transform .8s ease-out;
+}
+
+.title::before {
+	content: '';
+	width: 100%;
+	height: 4px;
+	margin: -3px 0 0 0;
+	background: #ffcedc;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate3d(-100%,0,0);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.title.active::before {
+	transform: translate3d(100%,0,0);
+}
+
+.title span:nth-child(2) {
+	top: 50%;
+}
+
+.title span:first-child::before {
+	top: 0;
+	transform: translate3d(0,100%,0);
+}
+
+.title span:nth-child(2)::before {
+	bottom: 0;
+	transform: translate3d(0,-100%,0);
+}
+
+.title.active span::before {
+	transition-delay: 0.3s;
+	transform: translate3d(0,0,0);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 }
