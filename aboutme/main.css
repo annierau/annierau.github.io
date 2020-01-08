@@ -1,5 +1,5 @@
 a {
-  color: #174ee8;
+  color: #8e1537;
   font-family: avenir;
 }
 
@@ -7,10 +7,65 @@ a:hover {
   color: red;
   text-align: center;
 }
+.center {
+    text-align: center;
+    color: #8e1537;
+    font-family: avenir;
+}
+
+@keyframes pulse {
+	25% {
+		transform: scale(1.1);
+	}
+
+	75% {
+		transform: scale(.9);
+	}
+}
+
+.button {
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: $primaryColour;
+  text-decoration: none;
+  color: $secondaryColour;
+}
+
+
+
+/* Styles for the content section */
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  #button {
+    margin: 30px;
+  }
+}
+.content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
 
 body {
   background-color:#ffcedc;
-  cursor: url(https://40.media.tumblr.com/6f35e78e0f80189f7fc89c036006571e/tumblr_n63gybzjY01rgnm98o1_1280.jpg),auto;
+  cursor: url('middle finger.jpg'), auto;
 }
 
 #header {
@@ -27,9 +82,22 @@ body {
   color: #8e1537;
 
 }
-
+.mapouter {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .image{
   border-color: #174ee8;
+  display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .twitter-follow-button{
   align-content: center;
@@ -105,7 +173,7 @@ h5{
 span {
   position: absolute;
 	height: 50%;
-	width: 100%;
+	width: 75%;
 	left: 0;
 	top: 0;
 	overflow: hidden;
