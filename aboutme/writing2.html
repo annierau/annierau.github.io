@@ -1,0 +1,594 @@
+
+<html>
+  <head>
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <a href="index.html"><img class=img src="New Project.png" alt="annie" border= "1" style="width:250px;height:150px;"></a>
+
+
+
+
+  <br><br>
+
+  <img src="windows_95_image.png" class="image" border= "1"  alt="Flower">
+
+  <style>
+    .image{
+      border-color: #174ee8;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    </style>
+
+<br><br><br><br><br>
+
+<div class="container text-center" ng-app="myApp">
+  <div class="image" ng-controller="MainCtrl">
+    <h1> requiem for seventeen </h1>
+  </div>
+</div>
+
+
+<style>
+
+  $blackletter: 'UnifrakturMaguntia';
+$white: #000;
+
+body {
+  background: #000;
+}
+
+h1, a, a:hover {
+  font-family: $blackletter;
+  color: $white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+a, .fa {
+  font-size: 21px;
+  color: $white;
+}
+
+.row > a:before, div > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div > a:hover:before, div > h1:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+</style>
+
+<script>
+  var app = angular.module('myApp', []);
+
+app.controller('MainCtrl', function($scope){
+  $scope.header="A Super Awesome Original Header" ;
+});
+  </script>
+
+<div class="collapsable-text">
+  <div class="less">
+<br> November 2017. 4 minute read. <br><br>
+Here's a draft I wrote in one sitting that later turned into my college essay! It's reallyyy self-righteous. also really honest.  <br> ---------------------------------------------->
+  </div>
+  <div class="more">
+    <br> November 2017. 4 minute read. <br><br>
+
+    Here's a draft I wrote in one sitting that later turned into my college essay! It's reallyyy self-righteous. also really honest. <br> ---------------------------------------------->
+    <br><br> <br>
+
+    <p>I thought I was smart my senior year of high school after I scored well on the ACT. I subscribed to the New Yorker and looked up the words I didn’t know and then used them in my AP Literature papers. I decided I would be an economist or teach at a college or at least do something impressive.
+One of my New Yorker articles mentioned an organization called City Year in a parenthetical. I looked it up and I started reading, then writing, and by the time I completed my interview I’d fallen in love with the program. My parents cried when I said I wanted to defer college for a year. I cried when I thought of the kids whose schools didn’t have the resources to provide them the education they deserved. I didn’t accept any offers of admission. May 1 came and went. I held my breath. And then I got into the program and found an apartment and moved to the South Side of Chicago on August 5 and life was a whirlwind of public transportation and childhood development trainings. School started on September 5 at 8:45. I broke down at 3:45. </p>
+<p>I bet The New Yorker would label my feeling as ineffectual, overtaxed, or disconsolate. I was young and homesick. Ten year olds are complex and confused and smelly and wise and goofy, but on September 5 they just seemed terrible. Room 216 wasn’t much better on September 6. But after many headaches, a few classroom management books and the development of trust and respect from both the students and me, my work transitioned from crowd control to the tutoring and mentoring it was supposed to be. </p>
+<p>My students impressed me. I think a lot about a quote I'd heard somewhere: “Children are not things to be molded but people to be unfolded.” I discovered sensitivity, workhorse resilience, and genius in Room 216. They started asking to eat lunch with me while we practiced math. I just about melted. As they learned metric conversions, I learned things I didn’t want to know about them. I watched my smartest student run around the halls in hysterics when he realized a shooting a block from the playground was the reason for indoor recess. He knew too much. I learned about incarcerated parents, gang activity, and took punches as I broke up fights in the back of math class.</p>
+<p>I spent seventeen years rather complacent about poverty because it was so abstract to me in my plush suburban bubble. But poverty has smacked me in the face, now, and I don’t think I’ll be able to forget it. Poverty is crack-addicted mothers whose children’s disruptive behavior hinders the learning of all thirty-five other kids in class. It’s tears over broken glasses that won’t be replaced, and the heart wrenching statistic that, according to some sources, one in three black male babies today will end up in jail. It’s bearable in the abstract, sickening when it’s a full six of my complex and confused and smelly and wise and goofy fifth graders. </p>
+<p>September 5 wasn’t the only day I cried in the staff bathroom. I definitely couldn’t fix the world for my students, but I could teach them three-digit multiplication-- maybe even make it fun-- and that was something. My first three months of proximity to American poverty taught me that my lexicon was nothing compared to my soul generated by love. I don’t think I’m so smart anymore. Nor do I care so much about seeming smart anymore. Right now I just care about feeling well fed, fulfilled, and helping others feel the same. Alternately, in the words of Mother Theresa, “I slept and dreamt that life was joy. I woke and saw that life was service. I served and learned that service is joy.” </p>
+
+  </div>
+  <BR><br><BR>
+  <span class="collapse-action show-more">Show more</span>
+  <span class="collapse-action show-less">Show less</span>
+</div>
+
+
+<br><br><br><br>
+<div class="container text-center" ng-app="myApp">
+  <div class="image" ng-controller="MainCtrl">
+    <h1> more than you wanted to know about restaurant impossible </h1>
+  </div>
+</div>
+
+
+<style>
+
+  $blackletter: 'UnifrakturMaguntia';
+$white: #000;
+
+body {
+  background: #000;
+}
+
+h1, a, a:hover {
+  font-family: $blackletter;
+  color: $white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+a, .fa {
+  font-size: 21px;
+  color: $white;
+}
+
+.row > a:before, div > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div > a:hover:before, div > h1:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+</style>
+
+<script>
+  var app = angular.module('myApp', []);
+
+app.controller('MainCtrl', function($scope){
+  $scope.header="A Super Awesome Original Header" ;
+});
+  </script>
+
+
+
+
+
+
+
+
+<div class="collapsable-text">
+  <div class="less">
+<br> December 2019. 4 minute read. <br><br>
+ I was an extra on Restaurant: Impossible and then I wrote about it!  ----->
+  </div>
+  <div class="more">
+    <br> December 2019. 4 minute read. <br><br>
+
+    I was an extra on Restaurant: Impossible and then I wrote about it.  ----->
+    <br><br> <br>
+
+    <p>Each episode of Restaurant: Impossible opens with a clip of celebrity chef Robert Irvine shaking his head in disapproval and crossing his arms, pulling his already skin-tight short sleeves even tighter around his yoked-out biceps. “I’m just waiting for the sleeves to rip,” my friend’s dad would say to the neighborhood girls and me as we camped our 10-year-old selves out in front of Food Network on winter weekend mornings. “Chef Robert Irvine has 2 days and $10,000 to do the impossible!” the TV would announce, conjuring suspense as we awaited Irvine’s valiant restaurant rescue.
+ </p>
+<p> There’s a lazy satisfaction from procedurals or makeover-type shows, where I can watch other people dutifully solve problems from the comfort of my couch. Each loose end is tied up within forty-two minutes, not including ads. With 16 seasons, the show is nearly inexhaustible for viewers, each episode following the same formula. Restaurant: Impossible’s team would travel, usually to Middle America, to make dingy (and often deeply indebted) restaurants hip and Yelp-worthy by slapping on new wallpaper and making over the menu. The final few minutes of the show are the highly-anticipated community reveal, which drives the urgency of the rest of the show (“just three hours before the guests arrive and we still can’t find the right blinds”). But they always are ready in time, and the scores of guests rave about Irvine’s changes in camera interviews. The whole show is predictable; it is manufactured; it is everything I wanted it to be.</p>
+<p>So during a busride Facebook scroll, when I saw a post calling for volunteers and dinner guests for a GRAND RAPIDS (MY HOMETOWN) episode, I immediately reserved a table for four. An email arrived three weeks later, confirming my table reservation, and giving specific instructions to arrive promptly at 6:15 to sign a release and get instructions.  “Be prepared to wait,” the email read, “for the grand reveal. This is TV and anything can happen.” </p>
+<p> When I arrived at Chez Olga the next day with my slightly-apprehensive grandparents and boyfriend, the windows were covered in cardboard and caffeinated twenty-somethings with headsets bustled around the building with pressing but unclear motives. My grandparents studied the release form carefully. I studied the other people in the guest tent. The loudest and most conspicuous were five Pinteresty-looking moms who laughed and chatted loudly. A handful of millennial couples were there, and a few older couples as well. After talking to a man next to me in line for a few minutes, we realized we shared a great grandparent (I’m not sure what that makes us— third cousins?). His very-pregnant wife was due in two weeks. Already amped on the prospect of food-network fame, I imagined how legendary it would be to witness a live birth on the Restaurant: Impossible set. We waited eagerly At 7:15, our Production Assistant named Allison told us that the renovation team was running behind. “They’re trying their best, but this is TV.” An hour later, the pretty moms left and came back with styrofoam cups of what must have been wine. A producer moved a box of snacks from the employee tent to our tent: trail mix, chocolates, Nutrigrain bars, bottled water. An hour after that, Allison lined us up and we followed her, like our mother duck, to the front of the building. It was starting to get dark, so they needed shots of the line right away. </p>
+<p> A blonde, tall, and strikingly beautiful camerawoman told Allison the the line would look better if it snaked to the left, not the right. We, the ducklings, followed Allison to the left, right in front of the papered-up windows. We stood for a while. My pregnant third-cousin-in-law was shivering. My grandparents were grumpy. The wine moms were whooping and giggling, which made me feel even more cold and sober.
+</p>
+
+<p>But then, like the second coming of Christ, Chef Robert Irvine descended from the steps of Chez Olga, looking exactly like he did on TV: a glowing aura of ruthlessness and bulging biceps. In his signature accent (which is untraceable… it’s mostly English, but with a lot of American influence, especially with short A’s. His “pasta” pronunciation is particularly grating… “past-uh” https://www.youtube.com/watch?v=MRr5kBaNqLg) he announced to the beleaguered dinner guests that the wait was nearly over, and expressed heartfelt gratitude for the Grand Rapids volunteers and guests. Soon enough, Olga, the first-generation Haitian restaurant owner, arrived in a flowing red gown and neat blindfold. The reveal triggered a theatrical reaction of excitement and gratitude: screaming, crying, hugging. The svelte camerawoman took lots of shots.</p>
+
+<p>Allison helped file us in and lead us to our assigned tables. A rag-tag waitstaff distributed paper menus with just six options, and only one without meat. I honestly can’t remember what any of us got, a testament to its bland characterlessness. In between stops from our endearing but painfully awkward waitress who must have been about 15, Irvine announced that we should blame him, not the staff, if the food or service disappointed us. “They’re having to adapt to a lot of changes really rapidly, and they’re doing an amazing job, but a lot of this stuff is brand new.” During dinner, the camerawoman bounced from table to table along with an interviewer who mined specific and enthusiastic praise from guests. The camera loved the wine moms, and the wine moms loved that camera. I got my two seconds of fame, and single line, during dinner, when I gushed to Olga herself, “this is beautiful,” referring to the bright blue walls and lofty ceilings. At 10:30 that night, we paid the steeper-than-expected bill (dishes averaged about $15) and went home to sleep, our four-hour TV escapade coming to a close. </p>
+
+<p>A few weeks later, I stopped into Chez Olga, and though the interior was identical to the night of filming, I was surprised but tickled to see that the old laminated, sprawling menu of authentic Creole dishes was back. Chef Robert Irvine his team don’t revisit the restaurants after the 48 hour transformation ends— they pack their vans for the next restaurant makeover, Allison told me. The majority of Irvine’s turnarounds prove truly impossible: Food Network Gossip reports that 61% of Restaurant: Impossible locations have closed. Two days and $10,000 can’t fix massive debt, incompetent staff, or burnt-out owners. But within those 42 minutes of runtime, Robert Irvine is an odd but consistent beefcake softy. TV personality (and Restaurant: Impossible Executive Producer) Marc Summers once called the show “.. the only true reality TV. Nothing was contrived.”
+</p>
+
+  </div>
+  <BR><br><BR>
+  <span class="collapse-action show-more">Show more</span>
+  <span class="collapse-action show-less">Show less</span>
+</div>
+
+
+
+
+
+
+
+<br><br><br><br>
+<div class="container text-center" ng-app="myApp">
+  <div class="image" ng-controller="MainCtrl">
+    <h1> "the unexamined snack is not worth eating" or something</h1>
+  </div>
+</div>
+
+
+<div class="collapsable-text">
+  <div class="less">
+<br> January 2020. 2 minute read. <br><br>
+ wtf is tapioca?!----->
+  </div>
+  <div class="more">
+    <br> January 2020. 2 minute read. <br><br>
+
+    wtf is tapioca?!----->
+    <br><br> <br>
+<p> Tapioca has followed me through alllll sorts of dietary chapters of life: It’s been phlegmy pellets in lunchbox pudding, a first ingredient in vegan cheeses like Daiya (whose proud claims to stretch and melt and provide “undeniable gooey-gooey cheesy texture” are tinged with desperate exaggeration, but still repeatedly convince me to spend $6 on  7-oz bags of mozzarella-style shreds), and small-marble-sized pearls that give chewy contrast to boba tea, my faaaavorite Ann Arbor splurge. But what even is it?
+</p>
+
+<p> I, Annie Rauwerda, girl detective, decided to Google It. Turns out tapioca comes from the storage roots of the cassava plant (also known as yuca root, which I think is familiar from ingredient lists) that looks like a dirty, off-white carrot, a tuber which contains little more than water and starch. And it’s far more popular than I realized. Cassava is the third-largest source of food carbohydrates in the tropics, after rice and maize (http://www.fao.org/ag/agp/agpc/gcds/). 800 million people depend on cassava as their primary food staple. (http://www.fao.org/3/a-i3278e.pdf), which I think is crazy (though I’m not *entirely* sure what it means [what is MY primary food staple?]). Cassava’s long harvesting window and success on poor soils and with low rainfall make it a renowned famine reserve, and during WWII many refugees in Southeast Asia survived on tapioca. And to think I spent my whole life thinking it was just a more controversial version of vanilla pudding.
+
+</p>
+
+<p> Another thing I could hardly believe is the breadth of forms and purposes the root takes: it’s made into alcohol in a number of tropical regions; its cellulose can be processed into biodegradable plastic alternatives; it can be made into tapioca flour, a valuable gluten-free substitute; it’s fried into chips in various Asian countries; it acts as a glue to hold pills together.
+
+</p>
+
+<p>
+  It’s as perplexingly versatile as soy. It can become anything, but by itself, tapioca means almost nothing to most people. One could draw similarities between the tapioca and me during sophomore year of college, but I don’t want to get into it. Maybe in another post. Anyway, I feel like a better person for looking this up, but I’m not sure why.
+
+</p>
+
+
+  </div>
+  <BR><br><BR>
+  <span class="collapse-action show-more">Show more</span>
+  <span class="collapse-action show-less">Show less</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+<div class="container text-center" ng-app="myApp">
+  <div class="image" ng-controller="MainCtrl">
+    <h1> book list</h1>
+  </div>
+</div>
+
+
+<style>
+
+  $blackletter: 'UnifrakturMaguntia';
+$white: #000;
+
+body {
+  background: #000;
+}
+
+h1, a, a:hover {
+  font-family: $blackletter;
+  color: $white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+a, .fa {
+  font-size: 21px;
+  color: $white;
+}
+
+.row > a:before, div > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div > a:hover:before, div > h1:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+</style>
+
+<script>
+  var app = angular.module('myApp', []);
+
+app.controller('MainCtrl', function($scope){
+  $scope.header="A Super Awesome Original Header" ;
+});
+  </script>
+
+<div class="collapsable-text">
+  <div class="less">
+<br>
+Books I’ve read since about January 2016, loosely in order of how much I enjoyed them  ----------------------------------------->
+  </div>
+  <div class="more">
+   <br>
+
+   Books I’ve read since about January 2016, loosely in order of how much I enjoyed them  ----------------------------------------->
+    <br><br> <br>
+
+    <p>
+
+<p>Trick Mirror by Jia Tolentino</p>
+<p>Born to Run by Christopher McDougall</p>
+<p>Into the Wild by Jon Krakauer</p>
+<p>The Emperor of All Maladies by Siddhartha Mukherjee</p>
+<p>Into Thin Air by Jon Krakour</p>
+<p>The Botany of Desire by Michael Pollen</p>
+<p>Educated by Tara Westover</p>
+<p>Devil in the White City by Erik Larson</p>
+<p>Bossypants by Tina Fey</p>
+<p>The Glass Castle by Jeanette Walls</p>
+<p>Becoming by Michelle Obama</p>
+<p>Commonwealth by Ann Patchett</p>
+<p>Being Mortal by Atul Gawande</p>
+<p>When Breath Becomes Air by Paul Kalanithi</p>
+<p>Freakonomics by Stephan Levitt</p>
+<p>Omnivore’s Dilemma by Michael Pollan</p>
+<p>The Overstory by Richard Powers</p>
+<p>Disrupted: My Misadventure in the Startup Bubble by Dan Lyons</p>
+<p>Gang Leader for a Day by Sudhir Venkatesh</p>
+<p>And Then There Were None by Agatha Christie</p>
+<p>Is Everyone Hanging Out Without Me? By Mindy Kaling</p>
+<p>The Things They Carried by Tim O’Brien</p>
+<p>No Impact Man by Colin Beavan</p>
+<p>Complications by Atul Gawande</p>
+<p>Think like a Freak by Steven Levitt and Steven Dubner</p>
+<p>David and Goliath by Malcolm Gladwell</p>
+<p>Death Sex and Cocoa Puffs by Chuck Closterman</p>
+<p>Why Not Me? By Mindy Kaling</p>
+<p>The Last American Man by Elizabeth Gilbert</p>
+<p>Yes Please by Amy Poehler</p>
+<p>The Girls by Emma Cline</p>
+<p>How to Win Friends and Influence People by Dale Carnegie</p>
+<p>Outliers by Malcolm Gladwell</p>
+<p>Born a Crime by Trevor Noah</p>
+<p>How to Change Your Mind by Michael Pollen</p>
+<p>I’m A Stranger Here Myself by Bill Bryson</p>
+<p> Me Talk Pretty One Day by David Sedaris</p>
+<p>Hillbilly Elegy by JD Vance</p>
+<p>Zeitoun by Dave Eggers</p>
+<p>Modern Romance by Aziz Ansari</p>
+<p>A Man Called Ove by Fredrick Backman</p>
+<p>Not That Kind of Girl by Lena Dunham</p>
+<p>Eiger Dreams by Jon Krakour</p>
+<p>The Guinea Pig Diaries by AJ</p>
+<p>Funny in Farsi by Firoozeh Dumas</p>
+<p>Turtles All the Way Down by John Green</p>
+<p>You Know You Want This by Kristen Roupenian</p>
+<p>The Last Battle by CS Lewis</p>
+<p>Giant of the Senate by Al Franken</p>
+<p>Where the Crawdads Sing by Delia Owens</p>
+<p>The Life Changing Magic of Tidying Up by Marie Kondo</p>
+<p>Talking to Strangers by Malcolm Gladwell</p>
+<p>Just Mercy by Bryan Stevenson</p>
+<p>Eat, Pray, Love by Elizabeth Gilbert</p>
+<p>Love Does by Bob Goff</p>
+<p>Cold Tangerines by Shauna Niequist</p>
+<p>Of Mice and Men by John Steinbeck </p>
+<p>The Girl with the Lower Back Tattoo by Amy Schumer</p>
+<p>Wild by Cheryl Strayed</p>
+<p>Lolita by Vladimir Nabokov</p>
+<p>Battle Hymn of the Tiger Mother by Amy Chua</p>
+<p>The Case for Christ by Lee Strobel</p>
+<p>Mere Christianity by CS Lewis</p>
+<p>A Child Called It by Dave Pelzer</p>
+<p>The Silver Chair by CS Lewis</p>
+<p>The Mother Tongue- English and How it Got That Way by Bill Bryson</p>
+<p>Dreams of my Father by Barack Obama</p>
+<p>Subtle Art of Not Giving a Fuck by Mark Manson</p>
+<p>The Awakening by Kate Chopin</p>
+<p>Blink by Malcolm Gladwell</p>
+<p>You Are a Badass by Jen Sincero</p>
+<p>Sisters First by Jenna Bush Hager and Barbara Bush</p>
+<p>How to Read Literature Like a Professor by Tim Foster</p>
+<p>The Catcher in the Rye by JD Salinger</p>
+<p>The Pine Barrens by John McPhee</p>
+<p>100 Years of Solitude by Gabriel Garcia Marquez</p>
+<p>King Lear by Shakespeare</p>
+<p>Teacher Man by Frank McCourt</p>
+<p>I Know I Am, But What Are You by Samantha Bee</p>
+<p>Why Beautiful People Have More Daughters by Alan S. Miller, Satoshi Kanazawa</p>
+<p>The Happiness Project by Gretchen Rubin</p>
+<p>Girl, Wash Your Face by Rachel Hollis</p>
+<p>Screwtape Letters by CS Lewis</p>
+<p>Real Sex by Lauren F. Winner</p>
+<p>Heart of Darkness by Joseph Conrad</p>
+<p>Me Before You by Jojo Moyes</p>
+<p>Perelandra by CS Lewis</p>
+
+<p>Luckiest Girl Alive by Jessica Knoll
+
+</p>
+
+  </div>
+  <BR><br><BR>
+  <span class="collapse-action show-more">Show more</span>
+  <span class="collapse-action show-less">Show less</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  span.collapse-action {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  div.collapsable-text {
+    width: 700px;
+    text-align: justify;
+    margin-left: auto;
+margin-right: auto;
+width: 30em
+  }
+
+  div.collapsable-text div.less {
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 30em
+
+  }
+
+  div.collapsable-text div.more {
+    display: none;
+    margin-left: auto;
+margin-right: auto;
+width: 30em
+
+  }
+
+  div.collapsable-text.expanded div.less {
+    display: none;
+    margin-left: auto;
+margin-right: auto;
+width: 30em
+  }
+
+  div.collapsable-text.expanded div.more {
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+width: 30em
+  }
+
+
+  div.collapsable-text span.show-more{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  div.collapsable-text span.show-less{
+    display: none;
+  }
+
+  div.collapsable-text.expanded span.show-more{
+    display: none;
+
+  }
+
+  div.collapsable-text.expanded span.show-less{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  a {
+    color: #8e1537;
+    font-family: avenir;
+  }
+  body {
+    background-color:#d6d6f5;
+    cursor: url('middle finger.jpg'), auto;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  <style>
+  img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  </style>
+
+ <script>
+
+   $(".show-more").click(function() {
+     $(this).parent().toggleClass("expanded");
+   });
+
+   $(".show-less").click(function() {
+     $(this).parent().toggleClass("expanded");
+   });
+   </script>
+
+   <br><br><br><br><br><br><br><br>
+   <a href="mailto:annierau@umich.edu?Subject=hi%20annie!!"><img src="email.png" class="image" border= "1" title="click to send me an email" alt="Flower"></a>
+   <br><br><br>
+
+
+
+   <div class="center"> designed and developed by annie rauwerda. 2019. </div>
+<br><br>
+
+
+
+
+   </html>
