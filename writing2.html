@@ -5,6 +5,7 @@
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -21,7 +22,34 @@ crossorigin="anonymous">
 
 
 
+<style>
+  a:link {
+    color:#000;
+    text-decoration: underline;
+    font-size: 1em;
+  }
 
+  /* visited link */
+  a:visited {
+    color: #000;
+    font-size: 1em;
+
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #660066;
+    font-size: 1em;
+
+  }
+
+  /* selected link */
+  a:active {
+    color: #000;
+    font-size: 1em;
+
+  }
+  </style>
 
 
 
@@ -67,7 +95,11 @@ crossorigin="anonymous">
 
 <style>
 
-  $blackletter: 'UnifrakturMaguntia';
+a{
+text-decoration: underline;
+
+}
+
 $white: #000;
 
 body {
@@ -78,13 +110,15 @@ body {
 und {
   text-decoration: underline;
 }
-h1, a, a:hover {
+
+h1, a:hover {
   font-family: $blackletter;
   color: $white;
-  text-decoration: none;
   position: relative;
   padding-bottom: 5px;
   cursor: pointer;
+  text-decoration: underline;
+
 }
 
 
@@ -214,7 +248,7 @@ app.controller('MainCtrl', function($scope){
 AH are you ready?! Here are all my favorite things on the internet by category! Practice left clicking and openning in a new tab so you don't get lost. Compiling all this was a fairly rewarding quarantine project. Put one together and send it my way, if you'd like! <p>
 
 
-      <p> <und>websites<und>
+      <p> WEBSITES:
           </p>
           <p>
           1.  <a href="http://radio.garden/listen/wcbn/WKYE45s2">Radio Garden</a> allows you to explore radio stations around the world without leaving their webpage!
@@ -266,7 +300,7 @@ AH are you ready?! Here are all my favorite things on the internet by category! 
 
 
 <Br><BR><BR>
-          <p> <und>Vibey Instagram Accounts<und>
+          <p> VIBEY INSTAGRAM ACCOUNTS
           </p> <br>
               <p>Mock me all you want, but I have gotten a ton of creative inspiration from Instagram, especially since I’ve become more intentional about evaluating which accounts I follow (AKA unfollowing acquaintances I hadn’t seen in three years). </p><BR>
               <br>
@@ -294,22 +328,22 @@ AH are you ready?! Here are all my favorite things on the internet by category! 
 
 
 <Br><BR><BR>
-          <p> <und>Blogs/Newsletters<und>
+          <p> BLOGS/NEWSLETTERS
           </p> <br>
 
           <p>
             1. Nature (the world’s most cited scientific journal) has a lovely and concise newsletter that I get every day in my inbox. Sign up <a href= "https://www.nature.com/my-account/alerts/test-widget?alert_id=NL_nature.com+Webcasts">here</a>
 </p>
 <p>
-  2. Similarly, I use the Market Snacks newsletter to get juuust enough finance news to be able to regurgitate some semirelevant fact when someone tries to talk to me about 401Ks or the Dow Jones or liquidity ratios.
+  2. Similarly, I use the <a href="https://snacks.robinhood.com/"> Robinhood Snacks</a> newsletter to get juuust enough finance news to be able to regurgitate some semirelevant fact when someone tries to talk to me about 401Ks or the Dow Jones or liquidity ratios.
 </p>
 
 <p>
-  3. I can’t quite figure out what <a href= "https://indoor-voices.blogspot.com/2020/03/reopen-all-windows-from-last-quarantine.html#more">indoor voices</a> is (its description is “stuff to read while you’re trying not to go viral), but it’s mildly interesting to rule all mildly interesting. Fun to browse!
+  3. I can’t quite figure out what <a href= "https://indoor-voices.blogspot.com/2020/03/reopen-all-windows-from-last-quarantine.html#more">indoor voices</a> is (its description is “stuff to read while you’re trying not to go viral"), but it’s mildly interesting to rule all mildly interesting. Fun to browse!
 </p>
 
 <p>
-This one’s a little different: I’ve followed this random girl named Kate Glavan on Instagram for about a year and she’s cool— puts out biweekly <a href="https://kateglavan.wordpress.com/2020/03/08/27-break-through-the-news/#respond ">newsletters</a> with pretty comprehensive roundups of current events and notable political journalism. Also, she’s 21 and vegan and I see some of myself in her (whatever that means).
+4. This one’s a little different: I’ve followed this random girl named Kate Glavan on Instagram for about a year and she’s cool— puts out biweekly <a href="https://kateglavan.wordpress.com/2020/03/08/27-break-through-the-news/#respond ">newsletters</a> with pretty comprehensive roundups of current events and notable political journalism. Also, she’s 21 and vegan and I see some of myself in her (whatever that means).
 </p>
 
 
@@ -1057,7 +1091,7 @@ The August WSJ essay “The Lonely Burden of Today’s Teenage Girls” examined
   <br><br><br><br>
   <div class="container text-center" ng-app="myApp">
     <div class="image" ng-controller="MainCtrl">
-      <h1> 1/19/2020 <br>lists in paragraph form</h1>
+      <h1> 1/19/2020 <br>rambling lists, manic energy, the sky, etc. </h1>
     </div>
   </div>
 
@@ -1141,12 +1175,12 @@ I guess I’m just excited about weeks where I’ll learn about things that’ll
 <div class="collapsable-text">
   <div class="less">
 <br> November 2017. 4 minute read. <br><br>
-Here's a draft that later turned into my college essay! It's really self-righteous. but. <br> --------------------------------------------------------->
+Here's a rough draft of my college essay that I wrote in one sitting on a fall Friday night when I lived in Chicago. It's a little self righteous, but the committees liked it, I guess. I like to think that it's a little more nuanced than the generic service essay ("I went on a mission trip to un pueblo in Mexico and when I said adios, I realized *they* were the ones serving *me*") <br> --------------------------------------------------------->
   </div>
   <div class="more">
     <br> November 2017. 4 minute read. <br><br>
 
-    Here's a draft that later turned into my college essay! It's really self-righteous. but. <br> --------------------------------------------------------->
+    Here's a rough draft of my college essay that I wrote in one sitting on a fall Friday night when I lived in Chicago. It's a little self righteous, but the committees liked it, I guess. I like to think that it's a little more nuanced than the generic service essay ("I went on a mission trip to un pueblo in Mexico and when I said adios, I realized *they* were the ones serving *me*") <br> --------------------------------------------------------->
     <br><br> <br>
 
     <p>I thought I was smart my senior year of high school after I scored well on the ACT. I subscribed to the New Yorker and looked up the words I didn’t know and then used them in my AP Literature papers. I decided I would be an economist or teach at a college or at least do something impressive.
@@ -1181,16 +1215,15 @@ body {
 }
 
 h1, a, a:hover {
-  font-family: $blackletter;
   color: $white;
   text-decoration: none;
   position: relative;
-  padding-bottom: 5px;
   cursor: pointer;
+  text-decoration: underline;
+
 }
 
 a, .fa {
-  font-size: 21px;
   color: $white;
 }
 
@@ -1328,7 +1361,7 @@ app.controller('MainCtrl', function($scope){
 <br><br><br><br>
 <div class="container text-center" ng-app="myApp">
   <div class="image" ng-controller="MainCtrl">
-    <h1> book list</h1>
+    <h1> i ranked all the books i've ever read </h1>
   </div>
 </div>
 
@@ -1470,6 +1503,7 @@ Books I’ve read since about January 2016, loosely in order of how much I enjoy
 <p>The Silver Chair by CS Lewis</p>
 <p>The Mother Tongue- English and How it Got That Way by Bill Bryson</p>
 <p>Dreams of my Father by Barack Obama</p>
+<p> Normal People by Sally Roony </p>
 <p>Subtle Art of Not Giving a Fuck by Mark Manson</p>
 <p>The Awakening by Kate Chopin</p>
 <p>Blink by Malcolm Gladwell</p>
@@ -1491,9 +1525,10 @@ Books I’ve read since about January 2016, loosely in order of how much I enjoy
 <p>Heart of Darkness by Joseph Conrad</p>
 <p>Me Before You by Jojo Moyes</p>
 <p>Perelandra by CS Lewis</p>
-
 <p>Luckiest Girl Alive by Jessica Knoll
+</p>
 
+<p> to be continued!
 </p>
 
   </div>
@@ -1525,11 +1560,11 @@ Books I’ve read since about January 2016, loosely in order of how much I enjoy
 <div class="collapsable-text">
   <div class="less">
 <br> January 2020. 3 minute read. <br><br>
- 800 straight words of feelings. <br> ---------------------------------------------------->
+ this is one that alllllmost stayed in my journal but then I decided it was kind of okay <br> ---------------------------------------------------->
   </div>
   <div class="more">
     <br> January 2020. 3 minute read. <br><br>
-800 straight words of feelings. <br> ---------------------------------------------------->
+this is one that alllllmost stayed in my journal but then I decided it was kind of okay <br> ---------------------------------------------------->
     <br><br> <br>
 <p> I’m so happy that Jayne and Jim read me Officer Buckle and Gloria and bought me bikes and taught me to read and made me cry about getting a 6/10 on a second grade spelling test.  And I’m not sure where to go from here, with stores of social capital and grandiose imaginary futures and energy that’s about to spill over.
 </p>
@@ -1593,7 +1628,7 @@ And if I want to find someone who is beautiful and can keep me interested for my
 <br><br><br><br>
 <div class="container text-center" ng-app="myApp">
   <div class="image" ng-controller="MainCtrl">
-    <h1> Grades suck, mostly </h1>
+    <h1> grades suck, mostly </h1>
 
   </div>
 </div>
@@ -1676,7 +1711,7 @@ Now that I am a student again, grades are all-consuming. I took relatively easy 
 <br><br><br><br>
 <div class="container text-center" ng-app="myApp">
   <div class="image" ng-controller="MainCtrl">
-    <h1> Amway sucks, mostly </h1>
+    <h1> amway sucks, mostly </h1>
   </div>
 </div>
 
@@ -1684,11 +1719,11 @@ Now that I am a student again, grades are all-consuming. I took relatively easy 
 <div class="collapsable-text">
   <div class="less">
 <br> January 2020. 3 minute read. <br><br>
----------------------------------------------------->
+(written for school, mildly interesting) ---------------------------------------------------->
   </div>
   <div class="more">
     <br> January 2020. 3 minute read. <br><br>
- ---------------------------------------------------->
+ (written for school, mildly interesting)---------------------------------------------------->
     <br><br> <br>
 <p>
 I grew up Grand Rapids, Michigan, home of Amway’s sprawling global headquarters since 1959. The company’s heirs have poured their legacies into West Michigan institutions, building a newer, more beautiful skyline of state-of-the-art hospitals, hotels, arenas, and schools, usually plastered with their familiar last names: DeVos and Van Andel. Descendents with the same last names populate my schools and churches, they’re my friends and colleagues. When Betsy Devos was catapulted into Trump-cabinet-notoriety, many individuals in my West Michigan circles cringed yet held their tongues, knowing that the wealth of her family funds our city. </p>
@@ -1955,7 +1990,9 @@ width: 30em
 
   a {
   color: black;
-  font-family: 'Dosis', sans-serif;
+  /* font-family: 'Dosis', sans-serif; */
+  width: 30em
+
 
   }
   body {
@@ -2013,7 +2050,7 @@ width: 30em
    <div class="container text-center" ng-app="myApp">
 
    <div class="less">
- <br> designed and (painfully) developed by annie rauwerda. 2020. <br><br>
+ <br> designed and developed by annie rauwerda. 2020. <br><br>
 
    </div>
 
